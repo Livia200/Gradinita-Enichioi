@@ -195,7 +195,7 @@ footer {
     top: 0;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 .acasa {
@@ -238,10 +238,6 @@ footer {
     position: absolute;
     font-size: 25px;
     color: hsl(214, 41%, 78%);
-}
-
-.link2 {
-    display: none;
 }
 
 .link {
@@ -298,6 +294,7 @@ footer {
 
 .locatie {
     text-align: center;
+    padding-top: 7%;
 }
 
 .locatie p{
@@ -507,6 +504,7 @@ footer {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+    filter: opacity(100%);
 }
 
 .custom-shape-divider-bottom-1702387974 svg {
@@ -841,7 +839,8 @@ footer {
         display: block;
         top: 60px;
         text-align: center;
-        font-weight: 700;
+        font-weight: 600;
+        font-size: 20px;
         /* color: black;
         text-shadow: 1px 1px blue; */
         line-height: 30%;
@@ -850,7 +849,7 @@ footer {
         background-color: rgba(77, 218, 147, 0.795);
         padding: 0;
         width: 100%;
-        height: 30px;
+        height: 25px;
         margin-left: 0;
     }
 
@@ -916,10 +915,6 @@ footer {
         display: none;
     }
 
-    .link2 {
-        display: block;
-    }
-
     .acasa {
         background: none;
         /* max-height: 400px; */
@@ -947,11 +942,12 @@ footer {
     .custom-shape-divider-bottom-1702387974 {
         width: 90%;
         margin-left: 5%;
-        margin-bottom: 10vh;
+        filter: opacity(0%);
     }
 
     .i1 {
         display: block;
+        border-radius: 0px;
     }
 
     .logo {
@@ -1070,7 +1066,7 @@ footer {
         border-top: 0px;
         padding-top: 5px;
         line-height: 19px;
-        height: 50px;
+        height: 45px;
     }
 
     #index,
