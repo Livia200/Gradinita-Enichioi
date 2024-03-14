@@ -162,6 +162,10 @@ footer {
     color: rgb(104, 31, 96);
 }
 
+.mainc {
+    padding-top: 0;
+}
+
 .logotot {
     float: left;
     border: 2px solid white;
@@ -605,6 +609,10 @@ footer {
         font-size: 14px;
     }
 
+    .mainc {
+        padding-top: 5%;
+    }
+
     .link a {
         font-size: 22px;
     }
@@ -1020,8 +1028,15 @@ footer {
         margin-right: 5%;
     }
 
+    .nou h2 {
+        width: 60%;
+    }
+
     .foto {
         margin-top: 20%;
+        margin-top: 0;
+        width: 60%;
+        margin-left: 20%;
     }
 
     .contacte {
@@ -1043,10 +1058,11 @@ footer {
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
+        gap: 20px;
     }
 
     .galerie img {
-        width: 250px;
+        width: 125px;
     }
 
     .buton3,
@@ -1058,9 +1074,6 @@ footer {
         margin-top: -0.9px;
     }
 
-    .foto {
-        margin-top: 0;
-    }
 
     #b {
         border-top: 0px;
